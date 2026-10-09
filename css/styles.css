@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: #ffefc2;
+    color: #C06D2D;
+}
+
+header {
+    background-color: #ce9163;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed #E0C000; 
+}
+
+.logotext {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+
+nav ul li a:hover, nav ul li a.active {
+    color: #ffffff
+}
+
+nav p {
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-left: 30px;
+    color: white;
+}
+
+.vessel:hover {
+    color: rgb(128, 0, 0);
+}
+
+.agaum {
+    display: flex;
+    justify-content: center;
+    font-size: 67px;
+    margin-top: 35px;
+    background-color: #a5856f;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.agadois{
+    margin-top: 50px;
+    display: block;
+    justify-content: center;
+    border-style: double;
+    padding: 50px;
+}
+
+.agadois h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+main p{
+    font-size: 16px;
+}
+
+
+.imagens{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.imagens img{
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+    border-style: dashed;
+    padding: 1px;
+}
+
+.oao:hover, .oao li:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    color:red
+}
+
+.um, .dois, .tres, .quatro, .cinco{
+   display: flex;
+   justify-self: center;
+   color: #c5a514;
+}
+
+.title{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+hr{
+    margin-top: 67px;
+    height: 10px;
+    background: #C06D2D;
+;
+}
+
+.form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: #ecdbad;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h3{
+    margin-top: 30px;
+}
+
+footer{
+    justify-self: center;
+}
+
+footer img{
+    margin-left: 100px;
+}
